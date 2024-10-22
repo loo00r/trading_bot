@@ -1,0 +1,54 @@
+# Common Git Operations in VSCode
+
+## Basic Operations
+1. Stage Changes:
+   - GUI: Click the + next to modified files
+   - Command Palette: "Git: Stage Changes"
+   - Terminal: `git add .`
+
+2. Commit Changes:
+   - GUI: Type message and press Ctrl+Enter
+   - Command Palette: "Git: Commit"
+   - Terminal: `git commit -m "message"`
+
+3. Push Changes:
+   - GUI: Click sync button in status bar
+   - Command Palette: "Git: Push"
+   - Terminal: `git push`
+
+4. Pull Changes:
+   - GUI: Click sync button in status bar
+   - Command Palette: "Git: Pull"
+   - Terminal: `git pull`
+
+## Branch Operations
+1. Create Branch:
+   - GUI: Click branch name in status bar -> Create new branch
+   - Command Palette: "Git: Create Branch"
+   - Terminal: `git checkout -b branch-name`
+
+2. Switch Branch:
+   - GUI: Click branch name in status bar -> Select branch
+   - Command Palette: "Git: Checkout to"
+   - Terminal: `git checkout branch-name`
+
+## Viewing History
+1. View File History:
+   - Right-click file -> Select "Git: View File History"
+   - Install GitLens for enhanced history viewing
+
+2. View Changes:
+   - Click the Source Control icon in sidebar
+   - Select file to see diff view
+
+## Resolving Conflicts
+1. Open file with conflicts
+2. Click "Accept Current Change", "Accept Incoming Change", 
+   or "Accept Both Changes"
+3. Save file and commit resolution
+
+## Keyboard Shortcuts
+- Ctrl+Shift+G: Open Source Control
+- Ctrl+Enter: Commit staged changes
+- Alt+Arrow: Navigate through changes
+- Ctrl+Shift+P: Open Command Palette for all Git commands

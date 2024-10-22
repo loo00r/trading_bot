@@ -1,0 +1,22 @@
+2024-09-09 19:41:41,940 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2024-09-09 19:41:41,942 INFO :: Binance Futures Client successfully initialized
+2024-09-09 19:41:53,300 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-09-09 19:41:53,560 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-09-09 19:41:53,561 INFO :: Bitmex Client successfully initialized
+2024-09-09 19:41:54,053 INFO :: Bitmex connection opened
+2024-09-09 19:41:54,223 INFO :: Binance connection opened
+2024-09-09 19:41:55,439 INFO :: Saved 1000 candles to historical_candles.csv
+2024-09-24 14:30:21,733 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2024-09-24 14:30:21,736 INFO :: Binance Futures Client successfully initialized
+2024-09-24 14:30:22,171 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-09-24 14:30:22,432 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-09-24 14:30:22,433 INFO :: Bitmex Client successfully initialized
+2024-09-24 14:30:23,228 INFO :: Binance connection opened
+2024-09-24 14:30:23,529 INFO :: Bitmex connection opened
+2024-09-27 23:05:00,384 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2024-09-27 23:05:00,387 INFO :: Binance Futures Client successfully initialized
+2024-09-27 23:05:00,968 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-09-27 23:05:01,299 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-09-27 23:05:01,302 INFO :: Bitmex Client successfully initialized
+2024-09-27 23:05:02,215 INFO :: Binance connection opened
+2024-09-27 23:05:02,774 INFO :: Bitmex connection opened

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98f104bf-bdc0-4be1-bee9-53f68710161c" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2lHjjiqnJIbKFTSdPfFJiXA2sBy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.binance_futures.executor": "Run",
+    "Python.bitmex_futures.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.telegram_bot.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Pc/Learn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\trading_bot" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pc\trading_bot\connectors" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98f104bf-bdc0-4be1-bee9-53f68710161c" name="Changes" comment="" />
+      <created>1724844034020</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724844034020</updated>
+      <workItem from="1724844034427" duration="13342000" />
+      <workItem from="1724947523650" duration="2265000" />
+      <workItem from="1725011167991" duration="10167000" />
+      <workItem from="1725105073143" duration="3572000" />
+      <workItem from="1725293778926" duration="3113000" />
+      <workItem from="1725356234116" duration="15387000" />
+      <workItem from="1725440545051" duration="217000" />
+      <workItem from="1725443768443" duration="3444000" />
+      <workItem from="1725456357510" duration="299000" />
+      <workItem from="1725463729751" duration="231000" />
+      <workItem from="1725464676564" duration="2173000" />
+      <workItem from="1725480863683" duration="49000" />
+      <workItem from="1725480923692" duration="121000" />
+      <workItem from="1725539282563" duration="6095000" />
+      <workItem from="1725620851804" duration="639000" />
+      <workItem from="1725898109768" duration="449000" />
+      <workItem from="1725898830348" duration="3871000" />
+      <workItem from="1725990416031" duration="19000" />
+      <workItem from="1727177361284" duration="199000" />
+      <workItem from="1727256306345" duration="916000" />
+      <workItem from="1727266217482" duration="56000" />
+      <workItem from="1727467205375" duration="461000" />
+      <workItem from="1727707419503" duration="35000" />
+      <workItem from="1727775133940" duration="598000" />
+      <workItem from="1727891130926" duration="18000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/trading_bot$binance_futures.coverage" NAME="binance_futures Coverage Results" MODIFIED="1725384602519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/connectors" />
+    <SUITE FILE_PATH="coverage/trading_bot$telegram_bot.coverage" NAME="telegram_bot Coverage Results" MODIFIED="1725481004969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trading_bot$bitmex_futures.coverage" NAME="bitmex_futures Coverage Results" MODIFIED="1724854753664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trading_bot$main.coverage" NAME="main Coverage Results" MODIFIED="1727467497823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
