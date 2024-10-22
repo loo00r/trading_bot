@@ -1,3 +1,39 @@
 .venv/
-source_coin_data/
+data/
 telegram_proj/
+git_help.txt
+models/
+
+
+# Data files
+data/
+*.csv
+
+# Model files
+*.h5
+*_weights.h5
+models/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs
+.idea/
+.vscode/
+
+# Virtual Environment
+.venv/
+venv/
+
+# Archives
+(Archived)_notebooks/
+(Archive)_scalers/
+
+# Logs
+*.log

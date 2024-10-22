@@ -20,3 +20,10 @@
 2024-09-27 23:05:01,302 INFO :: Bitmex Client successfully initialized
 2024-09-27 23:05:02,215 INFO :: Binance connection opened
 2024-09-27 23:05:02,774 INFO :: Bitmex connection opened
+2024-10-23 00:25:48,477 ERROR :: Error while making GET request to /fapi/v1/account: {'code': -5000, 'msg': 'GET /fapi/v1/account is retired, please use GET /fapi/v2/account'} (error code 400)
+2024-10-23 00:25:48,479 INFO :: Binance Futures Client successfully initialized
+2024-10-23 00:25:48,862 ERROR :: Error while making GET request to /api/v1/instrument/active: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-10-23 00:25:49,010 ERROR :: Error while making GET request to /api/v1/user/margin: {'error': {'message': 'Missing authorization headers: api-key', 'name': 'HTTPError'}} (error code 401)
+2024-10-23 00:25:49,011 INFO :: Bitmex Client successfully initialized
+2024-10-23 00:25:49,908 INFO :: Binance connection opened
+2024-10-23 00:25:50,030 INFO :: Bitmex connection opened
