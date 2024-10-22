@@ -1,6 +1,6 @@
 .venv/
 data/
-telegram_proj/
+src/telegram_proj/
 git_help.txt
 models/
 
