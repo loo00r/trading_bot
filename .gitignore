@@ -3,6 +3,8 @@ data/
 src/telegram_proj/
 git_help.txt
 models/
+source_coin_data/
+
 
 
 # Data files
@@ -36,4 +38,4 @@ venv/
 (Archive)_scalers/
 
 # Logs
-*.log
+*.logsource_coin_data/
