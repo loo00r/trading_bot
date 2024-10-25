@@ -74,3 +74,7 @@ from sklearn.model_selection import RandomizedSearchCV
 
 
 Передбачення можливо потрібно робити не чисто 5 свічей а волюм між мін і макс на наступні 5 свічей
+
+I will dodge high volatility in base model, then will create volatility model for tracking volatility
+
+Probably I will use only differences beetween different values
