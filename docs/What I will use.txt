@@ -1,0 +1,14 @@
+Reinforcement learning.
+1 min timestamp
+10 to 1 candles for train-test
+10 to 1 candles for prediction
+Probably it will be a few ML models for the different types of market 
+(also it will choose the right model before using it)
+
+Every 1000 seconds (also it possilby be not a 1 min candles) need to download a csv of candles, 
+then analyzer will choose correct strategy for the next actions)
+
+Probably it will be different indicator for different timeframes, 
+as example, Firstly model will check RSI indicator for daily timeframe,
+then based on this data will check different indicators
+
