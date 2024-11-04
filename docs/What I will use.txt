@@ -12,3 +12,5 @@ Probably it will be different indicator for different timeframes,
 as example, Firstly model will check RSI indicator for daily timeframe,
 then based on this data will check different indicators
 
+
+

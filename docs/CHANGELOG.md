@@ -7,6 +7,10 @@ All notable changes to this project will be documented in this file.
 - Working on features for my model
 - Working on best model parameters
 
+## [1.0.3] - 2024-10-25
+### Added
+- Added new ideas, started working on 'y' like differences beetween high and low value
+
 ## [1.0.2] - 2024-10-25
 ### Added
 - Added new col named RSI_8MIN

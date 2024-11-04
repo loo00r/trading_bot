@@ -80,3 +80,8 @@ I will dodge high volatility in base model, then will create volatility model fo
 Probably I will use only differences beetween different values
 
 High and low features should be removed!!!
+
+Probably we will predict differences beetween high and low value of the candle
+
+Also I think I will use 2 models one for the differences beetween high and low value 
+and the second one for the changes beetween open and close in percentage
