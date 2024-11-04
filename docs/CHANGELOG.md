@@ -2,7 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [Current_Tasks]: Deadline 
+>>> Deadline 10.11.2024
 ### Added
 - Working on features for my model
 - Working on best model parameters
