@@ -87,3 +87,5 @@ Also I think I will use 2 models one for the differences beetween high and low v
 and the second one for the changes beetween open and close in percentage
 
 In feature I will add some timers for check every opened positions
+
+Backtesting libraries: freqtrade, btgym, zipline, backtrader
