@@ -89,3 +89,5 @@ and the second one for the changes beetween open and close in percentage
 In feature I will add some timers for check every opened positions
 
 Backtesting libraries: freqtrade, btgym, zipline, backtrader
+
+Probably it will be third neural network that predict close value for the first candle
