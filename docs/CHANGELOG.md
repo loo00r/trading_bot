@@ -5,8 +5,11 @@ All notable changes to this project will be documented in this file.
 ## [Current_Tasks]: Deadline 
 >>> Deadline 10.11.2024
 ### Added
-- Working on features for my model
-- Working on best model parameters
+- Working on features for my models
+
+## [0.1.6] - 2024-10-25
+### Added
+- Create 3 different model files, start working on second model
 
 ## [0.1.5] - 2024-10-25
 ### Added
