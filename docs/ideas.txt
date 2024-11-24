@@ -91,3 +91,11 @@ In feature I will add some timers for check every opened positions
 Backtesting libraries: freqtrade, btgym, zipline, backtrader
 
 Probably it will be third neural network that predict close value for the first candle
+
+Probably it will structure like this ( ensemble model): one model that predict movement
+beetween close values( +100, +20, -40),
+second model will just about trend movement
+
+Bot will make order based on on highest differences
+
+In future it will be LLM model that will take all the info before the order and make decision
