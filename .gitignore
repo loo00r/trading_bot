@@ -1,4 +1,5 @@
 .venv/
+.env
 data/
 src/telegram_proj/
 git_help.txt
