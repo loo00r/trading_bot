@@ -37,7 +37,7 @@ logger.addHandler(file_handler)
 
 if __name__ == '__main__':
 
-    binance = BinanceFuturesClient("700ec3d1643b51bb93c42430d78368ddee2b913b6f76593609a999d397f235d9", "ef8ddc3ef0af54e1c69086ea154814260337a8e8d9c5eb0699500f27482abf29", True)
+    binance = BinanceFuturesClient("", "", True)
     bitmex = BitmexClient("", "", True)
 
     # contract = binance.contracts['BTCUSDT']

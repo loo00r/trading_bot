@@ -1,0 +1,62 @@
+Exactly! You've grasped a crucial concept in financial machine learning. Let's expand on this:
+
+1. **Price Scale Independence**
+```python
+# At $10,000:
+ema9 = 10000
+ema21 = 9900
+diff = 100  # +100 difference
+
+# At $50,000:
+ema9 = 50000
+ema21 = 49900
+diff = 100  # Same +100 difference, but very different context!
+```
+
+Better approach would be:
+```python
+# Percentage changes or returns
+price_pct_change = df['close'].pct_change()
+ema9_pct_change = df['ema_9'].pct_change()
+ema21_pct_change = df['ema_21'].pct_change()
+
+# Relative strength (how much faster/slower one EMA moves vs another)
+ema_relative = ema9_pct_change / ema21_pct_change
+
+# Or normalized price levels
+df['price_to_ema21'] = df['close'] / df['ema_21'] - 1  # % distance from EMA
+```
+
+2. **Context Matters**
+```python
+# Price context features
+df['atr_pct'] = df['atr'] / df['close']  # Volatility relative to price level
+df['volume_sma'] = df['volume'].rolling(20).mean()
+df['volume_relative'] = df['volume'] / df['volume_sma']  # Volume spike detection
+```
+
+3. **Combining Scale-Independent Features**
+```python
+features = {
+    'trend': [
+        'close_pct_change',          # Price momentum
+        'price_to_ema21',           # Trend position
+        'ema_relative'              # Trend strength
+    ],
+    'volume': [
+        'volume_relative',          # Volume spikes
+        'obv_pct_change'           # Money flow
+    ],
+    'volatility': [
+        'atr_pct'                  # Normalized volatility
+    ]
+}
+```
+
+This way:
+- Model learns patterns that work across different price levels
+- Features capture relative movements and relationships
+- Still maintains important context about market conditions
+- More robust to major price changes or market regimes
+
+Would you like me to elaborate on any of these approaches or show how to implement them with your specific indicators?
