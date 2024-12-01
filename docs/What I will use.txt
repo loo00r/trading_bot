@@ -14,3 +14,5 @@ then based on this data will check different indicators
 
 
 
+LSTMs or GRUs suffer from the vanishing gradient problem if you take to many historical points. The tricks that help build very deep CNNs don't work with RNNs. There is a performance trade off. My models stick to 10-15 day historical input. Experiment with Attention Models. It improves performance drastically. Experiment with different losses, maybe dynamic time warping or something. A lot of stuff to lool at.
+
